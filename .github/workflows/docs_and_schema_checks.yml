@@ -1,0 +1,13 @@
+name: Docs and Schema Checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run artifact validation script
+        run: bash scripts/validate_artifacts.sh

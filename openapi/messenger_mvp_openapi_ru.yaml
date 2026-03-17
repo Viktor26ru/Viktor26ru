@@ -1,0 +1,545 @@
+openapi: 3.0.3
+info:
+  title: Invite-only Messenger MVP API
+  version: 1.0.0
+  description: |
+    MVP API для приватного invite-only мессенджера.
+    В API отсутствуют endpoint'ы глобального поиска пользователей.
+servers:
+  - url: https://api.example.com/v1
+security:
+  - bearerAuth: []
+paths:
+  /auth/bootstrap:
+    post:
+      tags: [Auth]
+      summary: Создать анонимный аккаунт и первое устройство
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/BootstrapRequest'
+      responses:
+        '200':
+          description: Успешный bootstrap
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthTokens'
+  /auth/refresh:
+    post:
+      tags: [Auth]
+      summary: Обновить access token
+      security: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [refresh_token]
+              properties:
+                refresh_token:
+                  type: string
+      responses:
+        '200':
+          description: Новый access token
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [access_token]
+                properties:
+                  access_token:
+                    type: string
+  /devices/prekeys:
+    post:
+      tags: [Devices]
+      summary: Пополнить one-time prekeys
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [one_time_prekeys]
+              properties:
+                one_time_prekeys:
+                  type: array
+                  items:
+                    type: string
+      responses:
+        '204':
+          description: Ключи добавлены
+  /invites:
+    post:
+      tags: [Invites]
+      summary: Создать одноразовый инвайт
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateInviteRequest'
+      responses:
+        '201':
+          description: Инвайт создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/InviteResponse'
+  /invites/redeem:
+    post:
+      tags: [Invites]
+      summary: Активировать инвайт и создать контакт
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RedeemInviteRequest'
+      responses:
+        '200':
+          description: Контакт создан
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RedeemInviteResponse'
+        '409':
+          description: Инвайт уже использован
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+        '410':
+          description: Инвайт истёк
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+  /contacts:
+    get:
+      tags: [Contacts]
+      summary: Список связанных контактов
+      responses:
+        '200':
+          description: Контакты пользователя
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items]
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Contact'
+  /chats/direct:
+    post:
+      tags: [Chats]
+      summary: Создать или вернуть direct чат
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [contact_id]
+              properties:
+                contact_id:
+                  type: string
+      responses:
+        '200':
+          description: Чат
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Chat'
+  /chats:
+    get:
+      tags: [Chats]
+      summary: Список чатов
+      responses:
+        '200':
+          description: Список чатов
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items]
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Chat'
+  /chats/{chat_id}/messages:
+    get:
+      tags: [Messages]
+      summary: История сообщений чата
+      parameters:
+        - $ref: '#/components/parameters/ChatId'
+        - in: query
+          name: cursor
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Сообщения
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [items]
+                properties:
+                  items:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Message'
+                  next_cursor:
+                    type: string
+                    nullable: true
+    post:
+      tags: [Messages]
+      summary: Отправить E2E-сообщение
+      parameters:
+        - $ref: '#/components/parameters/ChatId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/SendMessageRequest'
+      responses:
+        '201':
+          description: Сообщение принято
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MessageAccepted'
+  /messages/{message_id}/ack:
+    post:
+      tags: [Messages]
+      summary: Обновить статус доставки/прочтения
+      parameters:
+        - $ref: '#/components/parameters/MessageId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [status]
+              properties:
+                status:
+                  type: string
+                  enum: [delivered, read]
+      responses:
+        '204':
+          description: Статус обновлен
+  /media/upload-url:
+    post:
+      tags: [Media]
+      summary: Получить pre-signed URL для загрузки зашифрованного файла
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UploadUrlRequest'
+      responses:
+        '200':
+          description: URL загрузки
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/UploadUrlResponse'
+  /media/{media_id}/download-url:
+    get:
+      tags: [Media]
+      summary: Получить pre-signed URL скачивания
+      parameters:
+        - $ref: '#/components/parameters/MediaId'
+      responses:
+        '200':
+          description: URL скачивания
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [download_url]
+                properties:
+                  download_url:
+                    type: string
+                    format: uri
+  /calls/start:
+    post:
+      tags: [Calls]
+      summary: Инициировать звонок
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [chat_id, call_type]
+              properties:
+                chat_id:
+                  type: string
+                call_type:
+                  type: string
+                  enum: [voice, video]
+      responses:
+        '201':
+          description: Звонок инициирован
+          content:
+            application/json:
+              schema:
+                type: object
+                required: [call_id]
+                properties:
+                  call_id:
+                    type: string
+  /calls/{call_id}/signal:
+    post:
+      tags: [Calls]
+      summary: Передать SDP/ICE signal
+      parameters:
+        - $ref: '#/components/parameters/CallId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [signal_type, payload]
+              properties:
+                signal_type:
+                  type: string
+                  enum: [offer, answer, ice]
+                payload:
+                  type: object
+                  additionalProperties: true
+      responses:
+        '204':
+          description: Сигнал принят
+  /calls/{call_id}/end:
+    post:
+      tags: [Calls]
+      summary: Завершить звонок
+      parameters:
+        - $ref: '#/components/parameters/CallId'
+      responses:
+        '204':
+          description: Звонок завершен
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+  parameters:
+    ChatId:
+      in: path
+      name: chat_id
+      required: true
+      schema:
+        type: string
+    MessageId:
+      in: path
+      name: message_id
+      required: true
+      schema:
+        type: string
+    MediaId:
+      in: path
+      name: media_id
+      required: true
+      schema:
+        type: string
+    CallId:
+      in: path
+      name: call_id
+      required: true
+      schema:
+        type: string
+  schemas:
+    BootstrapRequest:
+      type: object
+      required: [device_pub_key, identity_pub_key, signed_prekey, signed_prekey_sig, one_time_prekeys]
+      properties:
+        device_pub_key:
+          type: string
+        identity_pub_key:
+          type: string
+        signed_prekey:
+          type: string
+        signed_prekey_sig:
+          type: string
+        one_time_prekeys:
+          type: array
+          items:
+            type: string
+    AuthTokens:
+      type: object
+      required: [user_id, device_id, access_token, refresh_token]
+      properties:
+        user_id:
+          type: string
+        device_id:
+          type: string
+        access_token:
+          type: string
+        refresh_token:
+          type: string
+    CreateInviteRequest:
+      type: object
+      required: [ttl_seconds, max_uses]
+      properties:
+        ttl_seconds:
+          type: integer
+          minimum: 60
+          maximum: 3600
+        max_uses:
+          type: integer
+          minimum: 1
+          maximum: 1
+        label:
+          type: string
+    InviteResponse:
+      type: object
+      required: [invite_id, invite_token, expires_at]
+      properties:
+        invite_id:
+          type: string
+        invite_token:
+          type: string
+        expires_at:
+          type: string
+          format: date-time
+    RedeemInviteRequest:
+      type: object
+      required: [invite_token, recipient_identity_pub_key]
+      properties:
+        invite_token:
+          type: string
+        recipient_identity_pub_key:
+          type: string
+    RedeemInviteResponse:
+      type: object
+      required: [contact_id, peer_user_ref, session_init]
+      properties:
+        contact_id:
+          type: string
+        peer_user_ref:
+          type: string
+        session_init:
+          type: object
+          required: [peer_identity_key, peer_signed_prekey, peer_one_time_prekey]
+          properties:
+            peer_identity_key:
+              type: string
+            peer_signed_prekey:
+              type: string
+            peer_one_time_prekey:
+              type: string
+    Contact:
+      type: object
+      required: [contact_id, peer_user_ref, created_at]
+      properties:
+        contact_id:
+          type: string
+        peer_user_ref:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+    Chat:
+      type: object
+      required: [chat_id, chat_type, created_at]
+      properties:
+        chat_id:
+          type: string
+        chat_type:
+          type: string
+          enum: [direct, group]
+        created_at:
+          type: string
+          format: date-time
+    Message:
+      type: object
+      required: [message_id, chat_id, sender_ref, msg_type, ciphertext, created_at]
+      properties:
+        message_id:
+          type: string
+        chat_id:
+          type: string
+        sender_ref:
+          type: string
+        msg_type:
+          type: string
+          enum: [text, voice, video, file, system]
+        ciphertext:
+          type: string
+        media_id:
+          type: string
+          nullable: true
+        created_at:
+          type: string
+          format: date-time
+    SendMessageRequest:
+      type: object
+      required: [client_msg_id, ciphertext, msg_type]
+      properties:
+        client_msg_id:
+          type: string
+        ciphertext:
+          type: string
+        msg_type:
+          type: string
+          enum: [text, voice, video, file, system]
+        media_ref:
+          type: string
+    MessageAccepted:
+      type: object
+      required: [message_id, accepted_at]
+      properties:
+        message_id:
+          type: string
+        accepted_at:
+          type: string
+          format: date-time
+    UploadUrlRequest:
+      type: object
+      required: [kind, size, sha256]
+      properties:
+        kind:
+          type: string
+          enum: [voice, video, file]
+        size:
+          type: integer
+          minimum: 1
+        sha256:
+          type: string
+    UploadUrlResponse:
+      type: object
+      required: [media_id, upload_url]
+      properties:
+        media_id:
+          type: string
+        upload_url:
+          type: string
+          format: uri
+        headers:
+          type: object
+          additionalProperties:
+            type: string
+    ErrorResponse:
+      type: object
+      required: [code, message]
+      properties:
+        code:
+          type: string
+        message:
+          type: string
