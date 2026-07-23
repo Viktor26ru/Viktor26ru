@@ -1,0 +1,1512 @@
+[
+  {
+    "row": 800,
+    "average": 650,
+    "min": 450,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 900,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 801,
+    "average": 750,
+    "min": 500,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1050,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 802,
+    "average": 300,
+    "min": 180,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 500,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 803,
+    "average": 650,
+    "min": 400,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1000,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 804,
+    "average": 1100,
+    "min": 750,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1600,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 805,
+    "average": 700,
+    "min": 450,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1000,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 806,
+    "average": 450,
+    "min": 250,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 700,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 807,
+    "average": 850,
+    "min": 550,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1200,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 808,
+    "average": 250,
+    "min": 150,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 809,
+    "average": 600,
+    "min": 400,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 850,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 810,
+    "average": 950,
+    "min": 650,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 811,
+    "average": 250,
+    "min": 150,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 812,
+    "average": 550,
+    "min": 350,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 800,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 813,
+    "average": 900,
+    "min": 600,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1300,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 814,
+    "average": 350,
+    "min": 200,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 550,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 815,
+    "average": 750,
+    "min": 450,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1100,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 816,
+    "average": 1200,
+    "min": 800,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1700,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 817,
+    "average": 250,
+    "min": 150,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 818,
+    "average": 400,
+    "min": 250,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 600,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 819,
+    "average": 900,
+    "min": 600,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1300,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 820,
+    "average": 350,
+    "min": 220,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 550,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 821,
+    "average": 950,
+    "min": 650,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 822,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 300,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 823,
+    "average": 450,
+    "min": 300,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 650,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 824,
+    "average": 1000,
+    "min": 650,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1500,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 825,
+    "average": 1150,
+    "min": 700,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1800,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 826,
+    "average": 2200,
+    "min": 1500,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 3500,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 827,
+    "average": 550,
+    "min": 350,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 850,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 828,
+    "average": 850,
+    "min": 550,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 1300,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 829,
+    "average": 180,
+    "min": 120,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 260,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 830,
+    "average": 320,
+    "min": 220,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 450,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 831,
+    "average": 650,
+    "min": 450,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 900,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 832,
+    "average": 240,
+    "min": 160,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 350,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 833,
+    "average": 220,
+    "min": 150,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 320,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 834,
+    "average": 130,
+    "min": 90,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 200,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 835,
+    "average": 250,
+    "min": 150,
+    "min_url": "https://stavropol.gorelektrik.ru/tseny/",
+    "max": 400,
+    "max_url": "https://stavropol.dom-electric.ru/price",
+    "confidence": "medium",
+    "note": "Региональный тариф; выезд распределён на типовой объём работ."
+  },
+  {
+    "row": 836,
+    "average": 900,
+    "min": 600,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1400,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 837,
+    "average": 1200,
+    "min": 800,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1800,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 838,
+    "average": 650,
+    "min": 400,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 839,
+    "average": 700,
+    "min": 450,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1100,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 840,
+    "average": 550,
+    "min": 350,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 800,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 841,
+    "average": 750,
+    "min": 500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1100,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 842,
+    "average": 2400,
+    "min": 1500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 3500,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 843,
+    "average": 5500,
+    "min": 3500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 8000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 844,
+    "average": 2600,
+    "min": 1500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 4000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 845,
+    "average": 1400,
+    "min": 800,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 2200,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 846,
+    "average": 3500,
+    "min": 1800,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 6000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 847,
+    "average": 1800,
+    "min": 900,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 3000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 848,
+    "average": 1000,
+    "min": 600,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1600,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 849,
+    "average": 850,
+    "min": 500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1400,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 850,
+    "average": 6500,
+    "min": 4000,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 9000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 851,
+    "average": 3000,
+    "min": 1800,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 4500,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 852,
+    "average": 1300,
+    "min": 800,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 2000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 853,
+    "average": 900,
+    "min": 550,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1400,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 854,
+    "average": 900,
+    "min": 500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1400,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 855,
+    "average": 1100,
+    "min": 650,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 1700,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 856,
+    "average": 3500,
+    "min": 2500,
+    "min_url": "https://stavropol.san-tehniki.com/tseny/",
+    "max": 5000,
+    "max_url": "https://remo26.ru/price_san.php",
+    "confidence": "medium",
+    "note": "Региональный тариф; расходники и выезд распределены."
+  },
+  {
+    "row": 857,
+    "average": 4850,
+    "min": 3200,
+    "min_url": "https://stavropol.myguru.ru/services/vyvoz-musora/kontejner/",
+    "max": 7000,
+    "max_url": "https://stavropol.musor-rf.ru/konteyner_8m3/",
+    "confidence": "medium",
+    "note": "Контейнер 8 м³, подача и вывоз; НДС исключён."
+  },
+  {
+    "row": 858,
+    "average": 3500,
+    "min": 2000,
+    "min_url": "https://stavropol.myguru.ru/services/vyvoz-musora/",
+    "max": 6000,
+    "max_url": "https://xn--80ae1alafffj1i.xn--80akamaidwncjnp7bm.xn--p1ai/catalog/ekskavatory-pogruzchiki-v-arendu/",
+    "confidence": "low",
+    "note": "Оценка рейса и разгрузки с подъёмом; объём и этаж не заданы."
+  },
+  {
+    "row": 859,
+    "average": 155,
+    "min": 110,
+    "min_url": "https://gala-klining.ru/klining-v-stavropole",
+    "max": 200,
+    "max_url": "https://stavropol.novaclean.ru/uslugi/uborka-kvartiry-posle-remonta",
+    "confidence": "high",
+    "note": "Финальный клининг после ремонта, ставка за м²."
+  },
+  {
+    "row": 860,
+    "average": 300,
+    "min": 180,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 450,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 861,
+    "average": 650,
+    "min": 400,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 950,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 862,
+    "average": 230,
+    "min": 130,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 350,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 863,
+    "average": 400,
+    "min": 250,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 650,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 864,
+    "average": 900,
+    "min": 600,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 1400,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 865,
+    "average": 1500,
+    "min": 900,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 2300,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 866,
+    "average": 350,
+    "min": 200,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 600,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 867,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 300,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 868,
+    "average": 1400,
+    "min": 800,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 2200,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 869,
+    "average": 220,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 350,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 870,
+    "average": 240,
+    "min": 150,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 350,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 871,
+    "average": 100,
+    "min": 60,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 160,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 872,
+    "average": 300,
+    "min": 180,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 455,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 873,
+    "average": 120,
+    "min": 70,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 200,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 874,
+    "average": 90,
+    "min": 25,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 150,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 875,
+    "average": 180,
+    "min": 85,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 325,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 876,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 300,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 877,
+    "average": 300,
+    "min": 180,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 450,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 878,
+    "average": 300,
+    "min": 180,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 450,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 879,
+    "average": 650,
+    "min": 400,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 900,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 880,
+    "average": 100,
+    "min": 60,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 160,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 881,
+    "average": 200,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 325,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 882,
+    "average": 110,
+    "min": 60,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 180,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 883,
+    "average": 250,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 390,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 884,
+    "average": 170,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 260,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 885,
+    "average": 120,
+    "min": 70,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 200,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 886,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 280,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 887,
+    "average": 260,
+    "min": 150,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 400,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 888,
+    "average": 550,
+    "min": 350,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 800,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 889,
+    "average": 450,
+    "min": 300,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 650,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 890,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 300,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 891,
+    "average": 140,
+    "min": 80,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 220,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 892,
+    "average": 55,
+    "min": 30,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 90,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 893,
+    "average": 75,
+    "min": 40,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 120,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 894,
+    "average": 350,
+    "min": 200,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 600,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 895,
+    "average": 180,
+    "min": 100,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 300,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 896,
+    "average": 260,
+    "min": 150,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 450,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 897,
+    "average": 160,
+    "min": 90,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 250,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 898,
+    "average": 220,
+    "min": 120,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 350,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "medium",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 899,
+    "average": 650,
+    "min": 400,
+    "min_url": "https://stavropol.legionstroyspb.ru/price/",
+    "max": 1000,
+    "max_url": "https://stavrop.pemont-podkluch.ru/prajs/",
+    "confidence": "low",
+    "note": "Региональные демонтажные тарифы; выезд распределён."
+  },
+  {
+    "row": 900,
+    "average": 39000,
+    "min": 31000,
+    "min_url": "https://svetpro.ru/brendyi/oporyi-amira/ogk-7-oporyi-granenyie-konicheskie-vyisota-7-metrov.html",
+    "max": 51000,
+    "max_url": "https://stavropol.legionural.ru/product/opora-ogk-70-15/",
+    "confidence": "low",
+    "note": "Комплект ОГК-7 + ФМ + кронштейн, доставка распределена; аналог из-за неполной маркировки."
+  },
+  {
+    "row": 901,
+    "average": 8500,
+    "min": 5000,
+    "min_url": "https://red-met.ru/disassembly/demontazh-opor/",
+    "max": 14000,
+    "max_url": "https://xn--80ae1alafffj1i.xn--80akamaidwncjnp7bm.xn--p1ai/uslugi/remont-osveshcheniya",
+    "confidence": "low",
+    "note": "Демонтаж 7-м опоры и бетонного основания со спецтехникой."
+  },
+  {
+    "row": 902,
+    "average": 14500,
+    "min": 9500,
+    "min_url": "https://dvaelektrika.ru/ceny/ceny-na-montazh-opor",
+    "max": 21000,
+    "max_url": "https://xn--80ae1alafffj1i.xn--80akamaidwncjnp7bm.xn--p1ai/uslugi/remont-osveshcheniya",
+    "confidence": "medium",
+    "note": "Монтаж 7-м опоры, основание, бетон и перемонтаж оборудования."
+  },
+  {
+    "row": 903,
+    "average": 3900,
+    "min": 3200,
+    "min_url": "https://stavropol.prom-beton.ru/ceny-na-beton/",
+    "max": 4300,
+    "max_url": "https://stavropol.gamma-beton.ru/price",
+    "confidence": "high",
+    "note": "М350 В25 П4 с доставкой по Ставрополю, без НДС."
+  },
+  {
+    "row": 904,
+    "average": 2400,
+    "min": 1900,
+    "min_url": "https://xn--80ae1alafffj1i.xn--80akamaidwncjnp7bm.xn--p1ai/catalog/ekskavatory-pogruzchiki-v-arendu/",
+    "max": 3100,
+    "max_url": "https://xn----7sbabhd4cap0adamjdghoe1p5ab.xn--p1ai/",
+    "confidence": "medium",
+    "note": "Экскаватор-погрузчик с оператором; ставка часа без НДС."
+  },
+  {
+    "row": 905,
+    "average": 12000,
+    "min": 7000,
+    "min_url": "https://stavropol.legionural.ru/product/opora-ogk-70-15/",
+    "max": 20000,
+    "max_url": "https://stalelektro.ru/ogk-7/",
+    "confidence": "low",
+    "note": "Региональная доставка одной 7-м опоры; расстояние не задано."
+  },
+  {
+    "row": 906,
+    "average": 520,
+    "min": 280,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "Окрашенный RAL отлив; размеры развёртки не заданы, доставка учтена."
+  },
+  {
+    "row": 907,
+    "average": 350,
+    "min": 120,
+    "min_url": "https://stavropol.mslandshaft.ru/catalog/gazon/posevnoj-gazon/",
+    "max": 650,
+    "max_url": "https://greenle.ru/posevnoy-gazon",
+    "confidence": "medium",
+    "note": "Посевной газон под ключ: подготовка, семена, посев и первичный полив."
+  },
+  {
+    "row": 908,
+    "average": 620,
+    "min": 320,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1050,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "Фасонный элемент 0,45 мм RAL; по заданной сложной развёртке."
+  },
+  {
+    "row": 909,
+    "average": 4800,
+    "min": 3000,
+    "min_url": "https://msk.metalloprokat.ru/price/price_16327392.html",
+    "max": 7700,
+    "max_url": "https://xn----jtbmbkxj0a1d.xn--p1ai/catalog/protivopozharnoe-oborudovanie/pozharnye-shity-stendy-i-komplektuyushie/pozharnyj-shit-zakrytyj/",
+    "confidence": "medium",
+    "note": "Закрытый стальной щит 1250×700×300, доставка и НДС нормализованы."
+  },
+  {
+    "row": 910,
+    "average": 8500,
+    "min": 6400,
+    "min_url": "https://ygbereg.ru/inventar/shchity-i-yashchiki-pozharnye/stend-kombi-detail/",
+    "max": 9500,
+    "max_url": "https://go-34.ru/product/stend-pozharnyj-s-yap-c-plankoj/",
+    "confidence": "high",
+    "note": "Пожарный стенд с ящиком ЯП-03; доставка, без НДС."
+  },
+  {
+    "row": 911,
+    "average": 6100,
+    "min": 3900,
+    "min_url": "https://sec-group.ru/p/hiwatch-55691/",
+    "max": 9200,
+    "max_url": "https://ru-hiwatch.com/index.php?product_id=12662&route=product%2Fproduct",
+    "confidence": "medium",
+    "note": "Точная DS-I400(D), 2.8 мм; доставка, цены без НДС."
+  },
+  {
+    "row": 912,
+    "average": 620,
+    "min": 350,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 950,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 913,
+    "average": 360,
+    "min": 220,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 600,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 914,
+    "average": 520,
+    "min": 300,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 915,
+    "average": 580,
+    "min": 320,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 950,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 916,
+    "average": 520,
+    "min": 300,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 917,
+    "average": 600,
+    "min": 350,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1000,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 918,
+    "average": 470,
+    "min": 280,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 750,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 919,
+    "average": 550,
+    "min": 320,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 900,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 920,
+    "average": 500,
+    "min": 280,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 921,
+    "average": 330,
+    "min": 200,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 550,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 922,
+    "average": 290,
+    "min": 180,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 480,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 923,
+    "average": 360,
+    "min": 220,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 600,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 924,
+    "average": 390,
+    "min": 230,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 650,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 925,
+    "average": 320,
+    "min": 190,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 530,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 926,
+    "average": 500,
+    "min": 280,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 927,
+    "average": 470,
+    "min": 270,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 800,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 928,
+    "average": 350,
+    "min": 200,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 580,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 929,
+    "average": 560,
+    "min": 320,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 920,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 930,
+    "average": 420,
+    "min": 240,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 700,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 931,
+    "average": 500,
+    "min": 290,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 830,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 932,
+    "average": 650,
+    "min": 360,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1100,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 933,
+    "average": 450,
+    "min": 260,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 750,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 934,
+    "average": 600,
+    "min": 340,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1000,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 935,
+    "average": 850,
+    "min": 480,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1400,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 936,
+    "average": 950,
+    "min": 520,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1600,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 937,
+    "average": 520,
+    "min": 300,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 850,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 938,
+    "average": 560,
+    "min": 320,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 920,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 939,
+    "average": 620,
+    "min": 350,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 1050,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 940,
+    "average": 480,
+    "min": 280,
+    "min_url": "https://prestige-fasad.ru/proizvodstvo/fasonnye-elementy",
+    "max": 800,
+    "max_url": "https://rsb96.ru/stavropol/komplektuyuschie/nashchelnik-dlya-sendvich-paneley",
+    "confidence": "low",
+    "note": "RAL-элемент по аналогу; развёртка не задана, доставка учтена."
+  },
+  {
+    "row": 941,
+    "average": 800,
+    "min": 550,
+    "min_url": "https://lipetsk.kuvalda.ru/catalog/7020-samorezy-dlja-sendvich-panelej/product-32770/",
+    "max": 1150,
+    "max_url": "https://www.remkrep.ru/catalog/product/samorez_dlya_sendvich_paneley_otsinkovannyy_d6_3_5_5kh205_mm_50_sht_upak/",
+    "confidence": "medium",
+    "note": "50 саморезов 6,3/5,5×205 с EPDM; доставка распределена."
+  },
+  {
+    "row": 942,
+    "average": 430,
+    "min": 370,
+    "min_url": "https://krasnoyarsk.vkssib.ru/catalog/krovelnye-uplotniteli/ppe-lenty/175/",
+    "max": 520,
+    "max_url": "https://www.strd.ru/sendvich_paneli/komplektuuschie/lenta-germetiziruyushhaya-ppe-3-30-20m_2680077468413/",
+    "confidence": "high",
+    "note": "Точная лента ППЭ 3×30 мм, рулон 20 м; доставка, без НДС."
+  },
+  {
+    "row": 943,
+    "average": 390,
+    "min": 330,
+    "min_url": "https://www.krepiz.ru/krepezh-mungo/peny-i-germetiki-mungo/poliuretanovaya-pena-mungo-mpu-p50-dlya-pistoleta/",
+    "max": 470,
+    "max_url": "https://1001krep.ru/mpu-p50-poliuretanovaya-pena-mungo-dlya-pistoleta-750ml-artikul-1713511",
+    "confidence": "high",
+    "note": "Mungo MPU-P50 750 мл, выход 50 л; доставка, без НДС."
+  },
+  {
+    "row": 944,
+    "average": 500,
+    "min": 430,
+    "min_url": "https://dobornik.ru/products/pena-montazhnaya-zimnyaya-mpu-p-winter",
+    "max": 600,
+    "max_url": "https://psr1.ru/catalog/product/mungo_mpu_p_winter_750_ml/",
+    "confidence": "high",
+    "note": "Точная зимняя Mungo MPU-P Winter 750 мл; доставка, без НДС."
+  },
+  {
+    "row": 945,
+    "average": 24,
+    "min": 17,
+    "min_url": "https://mtl-k.ru/shop/psul-i-montazhnye-lenty/uplotnitelnaja-lenta/uplotnitelnaja-lenta-dlja-sendvich-panelej-uplotnitel-bauseal/",
+    "max": 30,
+    "max_url": "https://steelpan.ru/uplotnitel-bauseal-bausil-7-7",
+    "confidence": "high",
+    "note": "Точный BauSeal 7×7 мм, цена за метр без НДС."
+  },
+  {
+    "row": 946,
+    "average": 430,
+    "min": 280,
+    "min_url": "https://spb.uik-rus.ru/product/30147/",
+    "max": 650,
+    "max_url": "https://gflex.ru/catalog/germetiki/2144/",
+    "confidence": "low",
+    "note": "Универсальный силикон 280 мл, аналог: марка и цвет не заданы."
+  },
+  {
+    "row": 947,
+    "average": 17,
+    "min": 8,
+    "min_url": "https://www.alexir.ru/product/liplyent-o-shnur-3mm-kh-180m-samokleyashchiysya-germetiziruyushchiy-shnur/",
+    "max": 29,
+    "max_url": "https://dobornik.ru/products/butil-kauchukovyy-shnur-d3mm-liplent-o",
+    "confidence": "high",
+    "note": "Точный Липлент-О Ø3 мм, цена за метр без НДС."
+  },
+  {
+    "row": 948,
+    "average": 195000,
+    "min": 145000,
+    "min_url": "https://avtomatika-vorota.ru/catalog/shlagbaum/272/2073/",
+    "max": 235000,
+    "max_url": "https://sec-group.ru/p/came-19989/",
+    "confidence": "low",
+    "note": "CAME GARD 6500, доставка, демонтаж, монтаж и ПНР; комплектация варьируется."
+  },
+  {
+    "row": 949,
+    "average": 6500,
+    "min": 4000,
+    "min_url": "https://stavropol.gosdorsnab.ru/catalog/rastsenka-v-smete-na-perila-iz-nerzhaveyki-tsena-za-pogonnyy-metr/",
+    "max": 9200,
+    "max_url": "https://stavropol.elsodom.ru/perila-iz-nerzhaveyushchey-stali",
+    "confidence": "low",
+    "note": "Аналог перил AISI 304 с изготовлением, доставкой и анкерами."
+  },
+  {
+    "row": 950,
+    "average": 650,
+    "min": 500,
+    "min_url": "https://stavropol.profnastillist.ru/produktsiya/profnastil/",
+    "max": 860,
+    "max_url": "https://stavropol.met-trans.ru/stal/profnastil-3-metra",
+    "confidence": "medium",
+    "note": "С10 0,45 мм с полимерным RAL, доставка, без НДС."
+  }
+]
