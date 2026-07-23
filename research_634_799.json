@@ -3,131 +3,131 @@
     "row": 634,
     "average": 620,
     "min": 500,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
     "max": 760,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
+    "confidence": "low",
+    "note": "Точных карточек заданного безбрендового желоба d125 нет; ссылки на отфильтрованный каталог точного типоразмера, оценка по аналогам с порошковым покрытием."
   },
   {
     "row": 635,
     "average": 770,
     "min": 620,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://ru-complect.ru/krovlya-i-fasad/obustroistvo-krovli/vodostok/zhelob-vodostochnyj-150-mm-3m-grand-line?art=00013081",
     "max": 940,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://msk.tophouse.ru/price/zhelob-vodostochnyiy-3m-metallicheskiy-d150-18125",
+    "confidence": "high",
+    "note": "Карточки металлического желоба d150 длиной 3 м; пересчёт на м.п., без НДС и с доставкой в Ставрополь."
   },
   {
     "row": 636,
     "average": 260,
     "min": 190,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://www.tophouse.ru/price/kronshteyn-zheloba-korotkiy-d125-grandline-pe-56514/",
     "max": 340,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://strojbaza.ru/catalog/krovlya/metallicheskie-vodostochnye-sistemy/kronshtejn-zheloba-grand-line-metallicheskij-d125-mm-70-mm-seryj-ral-7024/",
+    "confidence": "high",
+    "note": "Точные карточки металлического крепления желоба d125; без НДС, доставка партии включена."
   },
   {
     "row": 637,
     "average": 310,
     "min": 230,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://ru-complect.ru/krovlya-i-fasad/obustroistvo-krovli/vodostok/zhelob-vodostochnyj-150-mm-3m-grand-line?art=00013081",
     "max": 400,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://msk.tophouse.ru/price/zhelob-vodostochnyiy-3m-metallicheskiy-d150-18125",
+    "confidence": "low",
+    "note": "Точной карточки крепления d150 с порошковой окраской не найдено; аналог системы 150/100, доставка учтена."
   },
   {
     "row": 638,
     "average": 760,
     "min": 610,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
     "max": 920,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/truba-kruglaya-100-mm-3-m-signalno-belaya-ral-9003-belaya-30889.html",
+    "confidence": "low",
+    "note": "Труба d125 нетипична для серийных водостоков; оценка по ближайшим окрашенным металлическим системам, точной карточки нет."
   },
   {
     "row": 639,
     "average": 930,
     "min": 750,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://vodostok-moscow.ru/catalog/vodostochnye-sistemy/truby-vodostochnye-otsinkovannye/truba-vodostochnaya-otsinkovannaya-diametr-150-mm/",
     "max": 1150,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.poetalon.ru/cat/vodostochnaya-truba-150-mm-2-m-otsinkovannaya-zn/",
+    "confidence": "low",
+    "note": "Точная окрашенная труба d150 не найдена; использованы карточки оцинкованной d150 как аналога, поэтому low."
   },
   {
     "row": 640,
     "average": 1250,
     "min": 980,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
     "max": 1540,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
+    "confidence": "low",
+    "note": "Точной карточки углового желоба d125 без указания бренда нет; ссылки на каталог совместимой системы 125/90, оценка по аналогам."
   },
   {
     "row": 641,
     "average": 1480,
     "min": 1150,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://ru-complect.ru/krovlya-i-fasad/obustroistvo-krovli/vodostok/zhelob-vodostochnyj-150-mm-3m-grand-line?art=00013081",
     "max": 1850,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://msk.tophouse.ru/price/zhelob-vodostochnyiy-3m-metallicheskiy-d150-18125",
+    "confidence": "low",
+    "note": "Точной карточки углового желоба d150 с порошковой окраской нет; ссылки на систему 150/100, оценка по аналогам."
   },
   {
     "row": 642,
     "average": 940,
     "min": 720,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
     "max": 1180,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
+    "confidence": "low",
+    "note": "Точной карточки воронки d125 без указания бренда нет; ссылки на каталог совместимой системы 125/90, оценка по аналогам."
   },
   {
     "row": 643,
     "average": 1150,
     "min": 880,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://ru-complect.ru/krovlya-i-fasad/obustroistvo-krovli/vodostok/zhelob-vodostochnyj-150-mm-3m-grand-line?art=00013081",
     "max": 1450,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://msk.tophouse.ru/price/zhelob-vodostochnyiy-3m-metallicheskiy-d150-18125",
+    "confidence": "low",
+    "note": "Точной карточки воронки d150 с порошковой окраской нет; ссылки на систему 150/100, оценка по аналогам."
   },
   {
     "row": 644,
     "average": 730,
     "min": 560,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/truba-kruglaya-100-mm-3-m-signalno-belaya-ral-9003-belaya-30889.html",
     "max": 920,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.poetalon.ru/cat/truba-kruglaya-grand-line-100-mm-3-m-ral-9003/",
+    "confidence": "low",
+    "note": "Точной карточки колена d100 без бренда нет; ссылки на совместимую металлическую систему 150/100, оценка по аналогам."
   },
   {
     "row": 645,
     "average": 900,
     "min": 690,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
     "max": 1130,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
+    "confidence": "low",
+    "note": "Точной карточки колена d125 без указания бренда нет; ссылки на каталог совместимой системы 125/90, оценка по аналогам."
   },
   {
     "row": 646,
     "average": 1150,
     "min": 850,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://bmskirov.ru/catalog/stroitelnye_materialy/krovelnye_materialy/metallocherepitsa/485788/",
     "max": 1480,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/snegozaderzhatel-new-trubchatyy-grand-line-ral-3003-3m-92271.html",
+    "confidence": "high",
+    "note": "Точные карточки трубчатого снегозадержателя 3 м; цена пересчитана на м.п., без НДС и с доставкой."
   },
   {
     "row": 647,
@@ -135,39 +135,39 @@
     "min": 300,
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 500,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://vodostok-moscow.ru/catalog/vodostochnye-sistemy/truby-vodostochnye-otsinkovannye/truba-vodostochnaya-otsinkovannaya-diametr-150-mm/",
+    "confidence": "low",
+    "note": "Труба d125 нетипична; точной карточки нет, оценка по оцинкованным водосточным трубам соседних типоразмеров."
   },
   {
     "row": 648,
     "average": 490,
     "min": 370,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://vodostok-moscow.ru/catalog/vodostochnye-sistemy/truby-vodostochnye-otsinkovannye/truba-vodostochnaya-otsinkovannaya-diametr-150-mm/",
     "max": 630,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.poetalon.ru/cat/vodostochnaya-truba-150-mm-2-m-otsinkovannaya-zn/",
+    "confidence": "high",
+    "note": "Точные карточки оцинкованной трубы d150 длиной 2 м; пересчёт на м.п., доставка и исключение НДС учтены."
   },
   {
     "row": 649,
     "average": 1050,
     "min": 780,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://ros-met.com/konek-kryshi-dlina-2-m-zn-pokrytie/",
     "max": 1340,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://snabline.com/konek-krovelnyy-otsinkovannyy-stal-l2-m-artikul-tov-097876",
+    "confidence": "high",
+    "note": "Точные карточки оцинкованного кровельного конька 2 м; доставка в Ставрополь и исключение НДС учтены."
   },
   {
     "row": 650,
     "average": 620,
     "min": 450,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://7812.ru/dobornye-ehlementy-krovli/torcevaya-planka/ocinkovka/",
     "max": 810,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://a-fasad.ru/product/planka-torcevaya-95h120h2000-oc-01-bc-on",
+    "confidence": "high",
+    "note": "Точные карточки оцинкованной торцевой планки 2 м; доставка и исключение НДС учтены."
   },
   {
     "row": 651,
@@ -176,8 +176,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 790,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки большого колена нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 652,
@@ -186,8 +186,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 640,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки малого колена нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 653,
@@ -196,8 +196,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 670,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки желоба с выходом «канадка» нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 654,
@@ -206,8 +206,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 660,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки углового желоба нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 655,
@@ -216,8 +216,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 210,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки крепления трубы нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 656,
@@ -226,8 +226,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 790,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки воронки нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 657,
@@ -236,8 +236,8 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 280,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки желоба 1250 мм нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 658,
@@ -246,114 +246,114 @@
     "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
     "max": 285,
     "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "confidence": "low",
+    "note": "Отдельной стабильной карточки желоба 2000 мм нет; ссылка ведёт на точный прайс-каталог оцинкованной системы, где позиция/аналог перечислены."
   },
   {
     "row": 659,
     "average": 135,
     "min": 95,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://www.tophouse.ru/price/kronshteyn-zheloba-korotkiy-d125-grandline-pe-56514/",
     "max": 180,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
+    "max_url": "https://strojbaza.ru/catalog/krovlya/metallicheskie-vodostochnye-sistemy/kronshtejn-zheloba-grand-line-metallicheskij-d125-mm-70-mm-seryj-ral-7024/",
     "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "note": "Карточки металлических кронштейнов желоба d125; для безбрендового крепления применён ближайший аналог, доставка включена."
   },
   {
     "row": 660,
     "average": 18,
     "min": 13,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://twowin.ru/product/samorez-po-metallu-4-8-100mm-sverlo-otsinkovannyy-lino-048-100-ruspert-1sht/",
     "max": 24,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
+    "max_url": "https://stalmax.ru/samorezy/samorez-krovelnyj-po-metallu-lsdr-4-8x100-200sht-art-12262",
     "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "note": "Карточки оцинкованных/Ruspert саморезов 4,8×100; цена за 1 шт., без НДС, доставка упаковки учтена."
   },
   {
     "row": 661,
     "average": 68,
     "min": 55,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://twowin.ru/product/paroizolyacionnaya-armirovannaya-plenka-tekhnonikol-alfa-barer-30-15h50m-75m2/",
     "max": 85,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/plenka-paroizolacionnaa-tehnonikol-master-barer-30-75m2-740050.html",
+    "confidence": "high",
+    "note": "Точные карточки армированной пароизоляции ТехноНИКОЛЬ; цена за м² без НДС с доставкой рулона."
   },
   {
     "row": 662,
     "average": 225,
     "min": 180,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
     "max": 290,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "confidence": "low",
+    "note": "Точная безбрендовая карточка желоба d125 нестабильна; ссылка на региональный каталог, где точный типоразмер перечислен."
   },
   {
     "row": 663,
     "average": 205,
     "min": 165,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
     "max": 265,
-    "max_url": "https://stavropol.stroyportal.ru/catalog/price-zhelob-vodostochnyy-otsinkovannyy-125410/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "confidence": "low",
+    "note": "Точная безбрендовая карточка желоба d100 нестабильна; ссылка на региональный каталог, где точный типоразмер перечислен."
   },
   {
     "row": 664,
     "average": 980,
     "min": 760,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.budmagazin.com.ua/w6997-vodostochnaya-systema-hunter-gelob",
     "max": 1220,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.dskroof.ru/vodostoki-hunter/",
+    "confidence": "low",
+    "note": "Точная карточка Hunter 125 найдена только у поставщика СНГ; российский поставщик подтверждает прекращение поставок, поэтому оценка-аналог и low."
   },
   {
     "row": 665,
     "average": 720,
     "min": 550,
-    "min_url": "https://metallo-prof.ru/katalog/vodostochnaya_sistema_125_100_mm_otsinkovannaya/",
+    "min_url": "https://gflex.ru/catalog/germetiki/8958/",
     "max": 910,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://germet.pro/katalog/germetiki/germetik-poliuretanovyj-odnokomponentnyj-germet.pro600-1k-pu25-600ml-cvet-chernyj",
+    "confidence": "high",
+    "note": "Карточки ПУ-герметика 600 мл; пересчёт по массе тубы на кг, без НДС и с доставкой."
   },
   {
     "row": 666,
     "average": 570,
     "min": 450,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/truba-kruglaya-100-mm-3-m-signalno-belaya-ral-9003-belaya-30889.html",
     "max": 720,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.poetalon.ru/cat/truba-kruglaya-grand-line-100-mm-3-m-ral-9003/",
+    "confidence": "high",
+    "note": "Точные карточки окрашенной металлической водосточной трубы d100; пересчёт на м.п., доставка и исключение НДС учтены."
   },
   {
     "row": 667,
     "average": 520,
     "min": 410,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
     "max": 660,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
+    "confidence": "low",
+    "note": "Желоб d100 для серийных металлических систем нетипичен; точной карточки нет, оценка по ближайшему окрашенному желобу."
   },
   {
     "row": 668,
     "average": 1080,
     "min": 830,
-    "min_url": "https://stavropol.grandline.ru/katalog/vodostok/",
+    "min_url": "https://www.grandline.ru/katalog/vodostok/metallicheskie-vodostochnie-sistemi/grand-line-125-90/",
     "max": 1370,
-    "max_url": "https://stavropol.grandline.ru/katalog/vodostok/",
-    "confidence": "medium",
-    "note": "3–5 предложений ЮФО/СКФО; без НДС, пересчёт на unit, доставка в Ставрополь включена."
+    "max_url": "https://www.grandline.ru/katalog/vodostok/zhelob/tag-125x3000/",
+    "confidence": "low",
+    "note": "Точный угловой желоб d100 без бренда не найден; оценка по элементам ближайшей металлической системы."
   },
   {
     "row": 669,
     "average": 620,
     "min": 430,
-    "min_url": "https://stavropol.blago-s.ru/catalog/montazh-vodostochnoj-sistemy/",
+    "min_url": "https://stavropol.top4dom.ru/montazh-vodostochnoj-sistemy",
     "max": 900,
     "max_url": "https://stavropol.krovlarus.ru/montazh-vodostochnoy-sistemy/",
     "confidence": "medium",
@@ -363,7 +363,7 @@
     "row": 670,
     "average": 720,
     "min": 500,
-    "min_url": "https://stavropol.blago-s.ru/catalog/montazh-vodostochnoj-sistemy/",
+    "min_url": "https://stavropol.top4dom.ru/montazh-vodostochnoj-sistemy",
     "max": 1080,
     "max_url": "https://stavropol.krovlarus.ru/montazh-vodostochnoy-sistemy/",
     "confidence": "medium",
@@ -373,7 +373,7 @@
     "row": 671,
     "average": 560,
     "min": 380,
-    "min_url": "https://stavropol.blago-s.ru/catalog/montazh-vodostochnoj-sistemy/",
+    "min_url": "https://stavropol.top4dom.ru/montazh-vodostochnoj-sistemy",
     "max": 820,
     "max_url": "https://stavropol.krovlarus.ru/montazh-vodostochnoy-sistemy/",
     "confidence": "medium",
@@ -383,7 +383,7 @@
     "row": 672,
     "average": 590,
     "min": 410,
-    "min_url": "https://stavropol.blago-s.ru/catalog/montazh-vodostochnoj-sistemy/",
+    "min_url": "https://stavropol.top4dom.ru/montazh-vodostochnoj-sistemy",
     "max": 850,
     "max_url": "https://stavropol.krovlarus.ru/montazh-vodostochnoy-sistemy/",
     "confidence": "medium",
@@ -393,11 +393,11 @@
     "row": 673,
     "average": 9200,
     "min": 6800,
-    "min_url": "https://stavropol.blago-s.ru/catalog/montazh-vodostochnoj-sistemy/",
+    "min_url": "https://stavropol.fl99.ru/ustanovka-greyushchego-kabelya",
     "max": 12800,
     "max_url": "https://stavropol.krovlarus.ru/montazh-vodostochnoy-sistemy/",
     "confidence": "low",
-    "note": "Аналог: монтаж греющего кабеля воронки с материалом; мощность/автоматика не заданы."
+    "note": "Точные тарифы монтажа греющего кабеля в водостоке; цена за одну воронку с материалом оценочная, так как длина кабеля и автоматика не заданы."
   },
   {
     "row": 674,
@@ -443,21 +443,21 @@
     "row": 678,
     "average": 175,
     "min": 120,
-    "min_url": "https://rostov.krepcom.ru/catalog/bolty-razdel/samoankeruyushchiysya_bolt_bsr_m20x200.htm",
+    "min_url": "https://www.krepiz.ru/product/klinovoy-anker-m16kh120/",
     "max": 240,
-    "max_url": "https://rostov.krepcom.ru/catalog/bolty-razdel/samoankeruyushchiysya_bolt_bsr_m20x200.htm",
-    "confidence": "low",
-    "note": "М16×120 оценён по аналогичным анкерам; точная карточка в регионе не найдена, доставка включена."
+    "max_url": "https://1001krep.ru/hsv-m16x120-byudzhetnyj-raspornyj-anker-hilti-artikul-2041611",
+    "confidence": "high",
+    "note": "Точные карточки анкера M16×120 с гайкой; без НДС и с доставкой партии в Ставрополь."
   },
   {
     "row": 679,
-    "average": 3100,
-    "min": 2300,
-    "min_url": "https://moskva.park-ur.ru/catalog/oborudovanie-sklada/otboyniki-dlya-pandusa/rezinovyy-upornyy-bamper-500-250-100/",
-    "max": 4200,
-    "max_url": "https://mirprofile.ru/store/zaschita_sten/otboynaya_doska/rezinovyy-otboynik-dlya-parkovok-zon-razgruzki-tovarov-lodok-/bamper-rezinovyy-500250100-mm/",
+    "average": 1600,
+    "min": 1250,
+    "min_url": "https://vestametall.ru/krepezh/metallicheskaya-plastina/plastinyi-pryamougolnyie/plastina-pryamougolnaya-250x500x5-mm-st1-3/",
+    "max": 2100,
+    "max_url": "https://glavmetalstal.ru/listovoj-prokat/metallicheskaya-plastina/plastina-pryamougolnaya/plastina-pryamougolnaya-250x500x5-mm-st1-3/",
     "confidence": "low",
-    "note": "Изготовление стальной монтажной пластины по размеру; аналог, толщина металла не указана."
+    "note": "Карточки пластины точного габарита 250×500, но толщина в исходной строке не задана; принят аналог 5 мм, доставка учтена."
   },
   {
     "row": 680,
@@ -465,69 +465,69 @@
     "min": 3900,
     "min_url": "https://razmetka-dorog.com/product/bamper-rezinovyj-br-500/",
     "max": 6500,
-    "max_url": "https://mirprofile.ru/store/zaschita_sten/otboynaya_doska/rezinovyy-otboynik-dlya-parkovok-zon-razgruzki-tovarov-lodok-/bamper-rezinovyy-500250100-mm/",
+    "max_url": "https://ryvok.ru/dorozhnoe-oborudovanie/otboiniki/pk-tehnologiya-br-500-500250100-mm-p/",
     "confidence": "high",
-    "note": "Точная модель БР-500; 4 цены, без НДС плюс доставка в Ставрополь."
+    "note": "Рабочие карточки точного резинового бампера БР-500 500×250×100; без НДС плюс доставка в Ставрополь."
   },
   {
     "row": 681,
     "average": 430,
     "min": 330,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 550,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Морозостойкая ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://tcs-union.ru/prozrachnye-zavesy-pvh/morozostojkie-gladkie/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный морозостойкий типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 682,
     "average": 850,
     "min": 670,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 1080,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Морозостойкая ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://tcs-union.ru/prozrachnye-zavesy-pvh/morozostojkie-gladkie/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный морозостойкий типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 683,
     "average": 1450,
     "min": 1100,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 1850,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Морозостойкая ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://tcs-union.ru/prozrachnye-zavesy-pvh/morozostojkie-gladkie/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный морозостойкий типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 684,
     "average": 350,
     "min": 270,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 450,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Стандартная ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://shop.korn.ru/catalog/plyenka_pvkh/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный стандартный типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 685,
     "average": 700,
     "min": 540,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 900,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Стандартная ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://shop.korn.ru/catalog/plyenka_pvkh/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный стандартный типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 686,
     "average": 1180,
     "min": 900,
-    "min_url": "https://skladsystems.com.ua/pvh-zavesy/pvh-lenty/morozoustoychivaya-lenta-pvh-200h2-mm-1-m-pog/",
+    "min_url": "https://tentcar.ru/catalog/shtory-i-zavesy/zavesy-pvh/",
     "max": 1520,
-    "max_url": "https://www.skladsystems.com/product/pvh-lenta-hladostojkaya-300x3-mm/",
-    "confidence": "low",
-    "note": "Стандартная ПВХ-лента; аналоги РФ/СНГ, валютные цены и доставка пересчитаны, поэтому low."
+    "max_url": "https://shop.korn.ru/catalog/plyenka_pvkh/",
+    "confidence": "medium",
+    "note": "Российские тарифные каталоги содержат точный стандартный типоразмер; без НДС, доставка рулона в Ставрополь учтена."
   },
   {
     "row": 687,
@@ -571,113 +571,113 @@
   },
   {
     "row": 691,
-    "average": 3900,
+    "average": 4800,
     "min": 3000,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "max": 5100,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "min_url": "https://simargl-pk.ru/",
+    "max": 7000,
+    "max_url": "https://mig-01.ru/shop/shhity-pozharnye/shhit-pozharnyj-zakrytyj-metallicheskij-gluhoj-1200x700x300",
+    "confidence": "low",
+    "note": "Российский каталог содержит точный щит 1250×700×300; вторая карточка — близкий 1200×700×300. Отдельной стабильной карточки точного размера нет, поэтому low."
   },
   {
     "row": 692,
     "average": 3500,
     "min": 2900,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://www.nfcom.ru/shkafy-pozharnye/shpk-320-21/shkaf-shpk-320-21-nzk",
     "max": 4300,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "max_url": "https://www.tcpb.ru/produkciya/hranenie-pozharnogo-inventarya/shkafy-dlya-pozharnogo-krana-320-21/shpk-320-21-nzk-0/",
     "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "note": "Карточки точного исполнения ШПК-320-21 НЗК 1300×540×230; бренд в одной карточке аналогичный, доставка учтена."
   },
   {
     "row": 693,
     "average": 3800,
     "min": 3000,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://metintergroup.ru/product/shpko-320-nzk-b/",
     "max": 4800,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "max_url": "https://metintergroup.ru/product/shkaf-pozharnyj-shpko-320-nzb-dlya-pozharnogo-krana-i-ognetushitelya-seriya-u/",
     "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "note": "Карточка точной модели ШПКО-320 НЗК Метинтергрупп и соседнего цветового исполнения; евроручка влияет на итоговую цену."
   },
   {
     "row": 694,
     "average": 2450,
     "min": 1950,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://metintergroup.ru/product/shpk-310-nzb/",
     "max": 3100,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "max_url": "https://satro-paladin.com/catalog/product/25360/",
+    "confidence": "high",
+    "note": "Точные карточки ШПК-310 НЗБ; без НДС, доставка в Ставрополь включена."
   },
   {
     "row": 695,
-    "average": 3500,
-    "min": 2850,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "max": 4300,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "average": 5000,
+    "min": 4000,
+    "min_url": "https://infavorit.ru/product/shkaf-pozharnyy-navesnoy-zakrytyy-shp-k-320-21-nzk-s-zamkom-1300kh540kh230-krasnyy-baltika-baltika-01-016-4307/",
+    "max": 6200,
+    "max_url": "https://www.tcpb.ru/produkciya/hranenie-pozharnogo-inventarya/shkafy-dlya-pozharnogo-krana-320-21/shpk-320-21-nzk-0/",
+    "confidence": "high",
+    "note": "Карточки точной модели Балтика-01 ШП-К-320-21 НЗК 1300×540×230; без НДС с доставкой."
   },
   {
     "row": 696,
-    "average": 4100,
-    "min": 3300,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "max": 5200,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "average": 11500,
+    "min": 9800,
+    "min_url": "https://www.npopuls.ru/products/pozharnye-shkafy/shkafy-pozharnye-universalnye/shp-k-o-puls-320-12-nzk-vzk-universalnyy.html",
+    "max": 13500,
+    "max_url": "https://magazin01.ru/product/sh-pk-003-12-t-shpk-320-12nzk-evro/",
+    "confidence": "high",
+    "note": "Точные карточки ШП-К-О-Пульс-320-12 НЗК; предыдущая оценка по общим ШПК была занижена, цены исправлены."
   },
   {
     "row": 697,
     "average": 3400,
     "min": 2700,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://steel-centre.ru/product/shkaf-pozharnyy-puls-shpk-320-12nzk/",
     "max": 4300,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "max_url": "https://pipeprice.ru/product/shkaf-pozharnyy-shpk-320n-12-nzk/",
     "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "note": "Карточки ШПК-320-12 НЗК; производитель исходником не задан, диапазон отражает разные исполнения."
   },
   {
     "row": 698,
     "average": 3100,
     "min": 2400,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://pts-01.ru/katalog/pozharnye-shkafy/shpk-315/nok-11-un/",
     "max": 4000,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "max_url": "https://gosgroup.ru/catalog/pogarnie_shkafi/dlya-rukava-i-ognetushitelya/tovar-521.html",
+    "confidence": "high",
+    "note": "Точные карточки ШПК-315 НОК 650×840×230; без НДС с доставкой."
   },
   {
     "row": 699,
     "average": 3300,
     "min": 2600,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
+    "min_url": "https://metintergroup.ru/product/shpk-320-nzk/",
     "max": 4200,
     "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "confidence": "low",
+    "note": "Точная маркировка неполна (ШПК-320Н без суффикса исполнения); использованы карточка НЗК и каталог точного семейства, поэтому low."
   },
   {
     "row": 700,
-    "average": 3500,
-    "min": 2850,
-    "min_url": "https://rnd.baltica01.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "max": 4300,
-    "max_url": "https://www.nfcom.ru/shkafy-pozharnye/dlya-krana-rukava-i-2-ognetushitelei-shpk-320",
-    "confidence": "medium",
-    "note": "3–5 шкафов соответствующего исполнения; без НДС и с доставкой из Ростова/ЦФО в Ставрополь."
+    "average": 5000,
+    "min": 4000,
+    "min_url": "https://infavorit.ru/product/shkaf-pozharnyy-navesnoy-zakrytyy-shp-k-320-21-nzk-s-zamkom-1300kh540kh230-krasnyy-baltika-baltika-01-016-4307/",
+    "max": 6200,
+    "max_url": "https://www.tcpb.ru/produkciya/hranenie-pozharnogo-inventarya/shkafy-dlya-pozharnogo-krana-320-21/shpk-320-21-nzk-0/",
+    "confidence": "high",
+    "note": "Карточки точной модели Балтика-01 ШП-К-320-21 НЗК 1300×540×230; без НДС с доставкой."
   },
   {
     "row": 701,
     "average": 1250,
     "min": 950,
-    "min_url": "https://www.evrosklad.ru/gidravlicheskie-telezhki-i-zapchasti-remon-ROCLA/",
+    "min_url": "https://telega36.ru/remkomplekt-dlya-gidravlicheskoj-telezhki-ac-18-35",
     "max": 1600,
-    "max_url": "https://skyg.ru/zapchasti/zapasnye-chasti-dlya-gidravlicheskih-telezhek/zapchasti-dlya-gidravlicheskih-telezhek-rocla/",
+    "max_url": "https://sklad-ok.ru/shop/product/remkomplekt-gidrouzla-rohli-tipa-df",
     "confidence": "medium",
-    "note": "Прайсы запчастей ROCLA и аналоги; без НДС, доставка сборной партии учтена."
+    "note": "Карточки ремкомплектов AC/DF; модель гидроузла исходником не указана, доставка учтена."
   },
   {
     "row": 702,
@@ -713,11 +713,11 @@
     "row": 705,
     "average": 580,
     "min": 450,
-    "min_url": "https://www.evrosklad.ru/gidravlicheskie-telezhki-i-zapchasti-remon-ROCLA/",
+    "min_url": "https://samgrupp.ru/catalog/tachki_telezhki/koleso_rokhli_80x70/",
     "max": 750,
-    "max_url": "https://skyg.ru/zapchasti/zapasnye-chasti-dlya-gidravlicheskih-telezhek/zapchasti-dlya-gidravlicheskih-telezhek-rocla/",
-    "confidence": "medium",
-    "note": "Прайсы запчастей ROCLA и аналоги; без НДС, доставка сборной партии учтена."
+    "max_url": "https://www.pfaff-silberblau.ru/rolik-poliuretanovii-80x70-mm",
+    "confidence": "high",
+    "note": "Точные карточки полиуретанового ролика 80×70; без НДС с доставкой партии."
   },
   {
     "row": 706,
@@ -793,31 +793,31 @@
     "row": 713,
     "average": 640,
     "min": 480,
-    "min_url": "https://products.rubezh.ru/products/ipr_513_10-1963/",
+    "min_url": "https://sector-sb.ru/catalog/ops/izveschateli_pojarnye/izveschateli_ruchnye/irsehtipr-3_su",
     "max": 850,
-    "max_url": "https://tdatm.ru/catalog/sredstva_i_sistemy_okhranno_pozharnoy_signalizatsii/rubezh_analogovoe_oborudovanie/ipr_513_10_isp_1.html",
-    "confidence": "low",
-    "note": "ИПР-3СУ: оценка по функциональным аналогам ручных извещателей с доставкой."
+    "max_url": "https://tdmb.ru/ipr-3su-izveshchatel-pozharnyy-ruchnoy/",
+    "confidence": "high",
+    "note": "Точные карточки ИПР-3СУ; без НДС, доставка партии в Ставрополь включена."
   },
   {
     "row": 714,
     "average": 720,
     "min": 560,
-    "min_url": "https://products.rubezh.ru/products/ipr_513_10-1963/",
+    "min_url": "https://profbez.pro/catalog/okhranno-pozharnaya-signalizatsiya/sistemy/bolid/izveshchateli-bolid/izveshchatel-pozharnyy-ruchnoy-bolid-ipr-513-3m",
     "max": 920,
-    "max_url": "https://tdatm.ru/catalog/sredstva_i_sistemy_okhranno_pozharnoy_signalizatsii/rubezh_analogovoe_oborudovanie/ipr_513_10_isp_1.html",
+    "max_url": "https://bolid.ru/production/ipr_513-3m_67.html",
     "confidence": "medium",
-    "note": "Болид ИПР 513-3М: 3–5 карточек/аналогов, доставка и исключение НДС учтены."
+    "note": "Точная карточка стандартного Болид ИПР 513-3М; максимум — защищённое исполнение IP67, поэтому диапазон модели зависит от исполнения."
   },
   {
     "row": 715,
-    "average": 360,
-    "min": 270,
-    "min_url": "https://products.rubezh.ru/products/ipr_513_10-1963/",
-    "max": 480,
-    "max_url": "https://www.tinko.ru/catalog/product/205151/",
-    "confidence": "medium",
-    "note": "Кожух ЗК-5 и совместимые аналоги; доставка партии включена."
+    "average": 650,
+    "min": 550,
+    "min_url": "https://www.tinko.ru/catalog/product/351790/",
+    "max": 780,
+    "max_url": "https://sltsys.com/catalog/zashitnye_kozuhi/zk_5_krasnyy/",
+    "confidence": "high",
+    "note": "Точные карточки защитного кожуха ЗК-5; цена исправлена, без НДС с доставкой партии."
   },
   {
     "row": 716,
@@ -843,41 +843,41 @@
     "row": 718,
     "average": 330,
     "min": 260,
-    "min_url": "https://www.prom-kolesa.ru/Kolesa-promyshlennye-povorotnye-c-3.html",
+    "min_url": "https://grmeh.ru/koleso-promyshlennoe-povorotnoe-125-mm/",
     "max": 430,
-    "max_url": "https://grmeh.ru/koleso-promyshlennoe-povorotnoe-125-mm/",
-    "confidence": "medium",
-    "note": "SC55 125 мм с метизами; 3–5 предложений, без НДС и с доставкой партии."
+    "max_url": "https://nizhniy-novgorod.agropak.net/catalog/promyshlennye-kolesa-i-roliki/kolesa-mfk-torg/koleso-promyshlennoe-povorotnoe-125mm-sc55/",
+    "confidence": "high",
+    "note": "Точные карточки SC55 125 мм; метизы и доставка партии учтены, без НДС."
   },
   {
     "row": 719,
     "average": 690,
     "min": 550,
-    "min_url": "https://www.prom-kolesa.ru/Kolesa-promyshlennye-povorotnye-c-3.html",
+    "min_url": "https://teh-52.ru/catalog/kolyosa-dly-telegek/promyshlennye_kolesa/koleso_sc_80/",
     "max": 880,
-    "max_url": "https://grmeh.ru/koleso-promyshlennoe-povorotnoe-125-mm/",
-    "confidence": "medium",
-    "note": "SC80 200 мм с метизами; 3–5 предложений, без НДС и с доставкой партии."
+    "max_url": "https://altertool.ru/product/36822/koleso-promyshlennoe-povorotnoe-200mm-sc80/",
+    "confidence": "high",
+    "note": "Точные карточки SC80 200 мм 185 кг; метизы и доставка партии учтены, без НДС."
   },
   {
     "row": 720,
-    "average": 420,
-    "min": 320,
-    "min_url": "https://www.prom-kolesa.ru/Kolesa-promyshlennye-povorotnye-c-3.html",
-    "max": 550,
-    "max_url": "https://grmeh.ru/koleso-promyshlennoe-povorotnoe-125-mm/",
+    "average": 300,
+    "min": 220,
+    "min_url": "https://yunimag.ru/goods/10872865-promyshlennoe-povorotnoe-koleso-gigant-g-04-09-13.html",
+    "max": 420,
+    "max_url": "https://yunimag.ru/goods/10872865-promyshlennoe-povorotnoe-koleso-gigant-g-04-09-13.html",
     "confidence": "low",
-    "note": "Gigant 75 мм или точный аналог; 3–5 предложений, без НДС и с доставкой партии."
+    "note": "Единственная стабильно доступная точная карточка Gigant G-04-09-13; диапазон сверялся ещё по 3 предложениям, но их страницы блокируют автоматическую проверку."
   },
   {
     "row": 721,
     "average": 820,
     "min": 640,
-    "min_url": "https://www.prom-kolesa.ru/Kolesa-promyshlennye-povorotnye-c-3.html",
+    "min_url": "https://yunimag.ru/goods/10872869-promyshlennoe-povorotnoe-koleso-gigant-g-04-09-17.html",
     "max": 1050,
-    "max_url": "https://grmeh.ru/koleso-promyshlennoe-povorotnoe-125-mm/",
+    "max_url": "https://yunimag.ru/goods/10872869-promyshlennoe-povorotnoe-koleso-gigant-g-04-09-17.html",
     "confidence": "low",
-    "note": "Gigant 200 мм или точный аналог; 3–5 предложений, без НДС и с доставкой партии."
+    "note": "Единственная стабильно доступная точная карточка Gigant G-04-09-17; диапазон сверялся ещё по 3 предложениям, но их страницы блокируют автоматическую проверку."
   },
   {
     "row": 722,
@@ -885,9 +885,9 @@
     "min": 210,
     "min_url": "https://stavropol.prochistka-kanalizacii24.ru/gidrodinamicheskaya-prochistka-kanalizatsii",
     "max": 450,
-    "max_url": "https://profi.ru/geo-stavropol/remont/prochistka-kanalizacii/price/",
+    "max_url": "https://stavropol.rstro.ru/remont-35-v-stavropole.html",
     "confidence": "medium",
-    "note": "Гидродинамика за пог.м при типовом заказе; минимальный выезд распределён по 20 м."
+    "note": "Точные ставропольские тарифы гидродинамической прочистки за пог.м; минимальный выезд распределён на типовой объём, без НДС."
   },
   {
     "row": 723,
@@ -895,9 +895,9 @@
     "min": 160,
     "min_url": "https://stavropol.prochistka-kanalizacii24.ru/gidrodinamicheskaya-prochistka-kanalizatsii",
     "max": 350,
-    "max_url": "https://profi.ru/geo-stavropol/remont/prochistka-kanalizacii/price/",
+    "max_url": "https://santehnyk-stavropol.ru/sistema-kanalizacii/prochistka-kanalizaciii/mekhanicheskaya-prochistka-kanalizatsionnykh-trub/",
     "confidence": "medium",
-    "note": "Механическая/ручная прочистка за пог.м при типовом заказе; выезд включён."
+    "note": "Точные ставропольские тарифы ручной/механической прочистки; цена приведена к пог.м типового заказа, выезд и исключение НДС учтены."
   },
   {
     "row": 724,
