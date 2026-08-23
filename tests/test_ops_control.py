@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1] / "ops_control"
 sys.path.insert(0, str(ROOT))
 
+from bots import start_code  # noqa: E402
 from commands import CommandRouter, _resolve_project, _unit_alias  # noqa: E402
 from inventory import PROJECTS, all_hosts, project_by_id  # noqa: E402
 from store import Store  # noqa: E402
@@ -44,6 +45,11 @@ class StoreTests(unittest.TestCase):
 
 
 class CommandTests(unittest.TestCase):
+    def test_start_code(self):
+        self.assertEqual(start_code("/start 13e06b01"), "13e06b01")
+        self.assertEqual(start_code("/start@Crazynewaibot 13e06b01"), "13e06b01")
+        self.assertEqual(start_code("/start"), "")
+
     def test_aliases(self):
         self.assertEqual(_resolve_project("статус пятёрочки"), "x5")
         self.assertEqual(_resolve_project("рестарт чижик"), "chizhik")
