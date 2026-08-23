@@ -9,6 +9,7 @@ sys.path.insert(0, str(ROOT))
 from bots import start_code  # noqa: E402
 from commands import CommandRouter, _resolve_project, _unit_alias  # noqa: E402
 from inventory import PROJECTS, all_hosts, project_by_id  # noqa: E402
+from recovery import restart_hint  # noqa: E402
 from store import Store  # noqa: E402
 
 
@@ -24,6 +25,10 @@ class InventoryTests(unittest.TestCase):
         x5 = project_by_id("x5")
         self.assertIn("max-chat-collector.service", x5["heal_units"])
         self.assertTrue(x5["http"])
+
+    def test_restart_hint(self):
+        self.assertEqual(restart_hint("x5", "max-chat-collector.service"), "/restart x5 collector")
+        self.assertEqual(restart_hint("chizhik", "ie-bot-parallel-collector.service"), "/restart chizhik collector")
 
 
 class StoreTests(unittest.TestCase):

@@ -20,7 +20,7 @@ from commands import CommandRouter  # noqa: E402
 from dashboard import serve  # noqa: E402
 from inventory import PROJECTS  # noqa: E402
 from probes import probe_all  # noqa: E402
-from recovery import maybe_heal  # noqa: E402
+from recovery import record_problems, restart_hint  # noqa: E402
 from store import Store  # noqa: E402
 
 DATA = ROOT / "data"
@@ -45,7 +45,6 @@ def load_env() -> dict[str, str]:
         "DASHBOARD_KEY",
         "BIND_CODE",
         "TELEGRAM_ADMIN_IDS",
-        "AUTO_HEAL",
     ):
         if os.environ.get(key):
             env[key] = os.environ[key]
@@ -74,16 +73,16 @@ class Supervisor:
             )
         allow = {330798756, 63992802}
         self.max_inbox = MaxInbox(self.router.handle, allow)
-        self.auto_heal = (env.get("AUTO_HEAL") or "1") not in {"0", "false", "no"}
         self._notified: set[int] = set()
 
     def notify(self, text: str) -> None:
         if self.tg:
             self.tg.notify_admins(text, self.store)
-        try:
-            max_send_via_ssh("pm", 330798756, text)
-        except Exception:
-            pass
+        for pid in ("x5", "chizhik", "pm"):
+            try:
+                max_send_via_ssh(pid, 330798756, text)
+            except Exception:
+                pass
 
     def collector_loop(self) -> None:
         while not self.stop.is_set():
@@ -93,7 +92,15 @@ class Supervisor:
                     self.store.put_snapshot(pid, snap)
                     cfg = next((p for p in PROJECTS if p["id"] == pid), None)
                     if cfg:
-                        maybe_heal(cfg, snap, self.store, self.auto_heal)
+                        for sug in record_problems(cfg, snap, self.store):
+                            if sug["incident_id"] in self._notified:
+                                continue
+                            self._notified.add(sug["incident_id"])
+                            self.notify(
+                                f"СБОЙ {sug['project']}: {sug['summary']}\n"
+                                f"Сам не рестартую. Если надо — напиши в MAX или Telegram:\n"
+                                f"{sug['command']}"
+                            )
                     if not snap.get("ok"):
                         inc = self.store.open_incident(
                             pid, "health", "critical", snap.get("error") or "health failed"
@@ -104,9 +111,16 @@ class Supervisor:
                     else:
                         self.store.resolve_by_target(pid, "health", "ok")
                 for inc in self.store.open_incidents():
-                    if inc["id"] not in self._notified and inc["target"] != "note":
-                        self._notified.add(inc["id"])
-                        self.notify(f"Инцидент #{inc['id']} {inc['project']} {inc['target']}: {inc['summary']}")
+                    if inc["id"] in self._notified or inc["target"] == "note":
+                        continue
+                    self._notified.add(inc["id"])
+                    cmd = ""
+                    if str(inc["target"]).endswith(".service"):
+                        cmd = "\nЕсли надо рестарт: " + restart_hint(inc["project"], inc["target"])
+                    self.notify(
+                        f"Инцидент #{inc['id']} {inc['project']} {inc['target']}: {inc['summary']}"
+                        f"{cmd}\nСам не рестартую — команда только от тебя в MAX или Telegram."
+                    )
             except Exception as exc:
                 self.store.open_incident("ops", "collector", "warning", str(exc)[:300])
             self.stop.wait(45)

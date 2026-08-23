@@ -1,10 +1,27 @@
 from __future__ import annotations
 
-import time
 from typing import Any
 
 from inventory import project_by_id
 from probes import ssh_text
+
+RESTART_HINTS = {
+    ("x5", "max-chat-collector.service"): "/restart x5 collector",
+    ("x5", "max-collector-dashboard.service"): "/restart x5 dashboard",
+    ("x5", "max-mail-idle.service"): "/restart x5 mail",
+    ("x5", "nginx.service"): "/restart x5 nginx",
+    ("chizhik", "ie-bot-parallel-collector.service"): "/restart chizhik collector",
+    ("chizhik", "ie-bot-parallel-chizhik-dashboard.service"): "/restart chizhik dashboard",
+    ("chizhik", "ie-bot-parallel-dashboard.service"): "/restart chizhik dashboard",
+    ("chizhik", "ie-bot-parallel-wrs-report-mail.service"): "/restart chizhik mail",
+    ("pm", "project-manager.service"): "/restart pm dashboard",
+    ("pm", "cov-platform.service"): "/restart pm platform",
+    ("pm", "ops-desk.service"): "/restart pm ops",
+}
+
+
+def restart_hint(project_id: str, unit: str) -> str:
+    return RESTART_HINTS.get((project_id, unit), f"/restart {project_id} {unit}")
 
 
 def restart_unit(project_id: str, unit: str) -> dict[str, Any]:
@@ -26,32 +43,33 @@ def restart_unit(project_id: str, unit: str) -> dict[str, Any]:
     }
 
 
-def maybe_heal(project: dict[str, Any], snapshot: dict[str, Any], store, auto_heal: bool) -> list[dict[str, Any]]:
-    actions: list[dict[str, Any]] = []
-    if not auto_heal or project["id"] == "cursordev":
-        return actions
+def record_problems(project: dict[str, Any], snapshot: dict[str, Any], store) -> list[dict[str, Any]]:
+    """Open/close incidents. Never restarts anything."""
+    suggestions: list[dict[str, Any]] = []
+    if project["id"] == "cursordev":
+        return suggestions
     units = snapshot.get("units") or {}
     failed = set(snapshot.get("failed_units") or [])
-    for unit in project.get("heal_units", []):
+    restartable = set(project.get("heal_units", []) + project.get("core_units", []))
+    for unit in restartable:
         state = units.get(unit)
-        down = state not in (None, "active") or unit in failed
+        down = (state not in (None, "active")) or unit in failed
         if not down:
             store.resolve_by_target(project["id"], unit, "recovered")
             continue
-        inc_id = store.open_incident(project["id"], unit, "critical", f"{unit} = {state or 'failed'}")
-        key = f"heal:{project['id']}:{unit}"
-        last = int(store.kv_get(key, "0") or "0")
-        now = int(time.time())
-        if now - last < 300:
-            continue
-        result = restart_unit(project["id"], unit)
-        store.kv_set(key, str(now))
-        store.log_command("watchdog", "auto", f"restart {project['id']} {unit}", str(result))
-        if result.get("ok"):
-            store.resolve_incident(inc_id, "restarted")
-        actions.append(result)
-    for unit in snapshot.get("failed_units") or []:
-        if unit in project.get("heal_units", []):
+        summary = f"{unit} = {state or 'failed'}"
+        inc_id = store.open_incident(project["id"], unit, "critical", summary)
+        suggestions.append(
+            {
+                "incident_id": inc_id,
+                "project": project["id"],
+                "unit": unit,
+                "command": restart_hint(project["id"], unit),
+                "summary": summary,
+            }
+        )
+    for unit in failed:
+        if unit in restartable:
             continue
         store.open_incident(project["id"], unit, "warning", f"{unit} failed")
     for disk in snapshot.get("disks") or []:
@@ -64,4 +82,4 @@ def maybe_heal(project: dict[str, Any], snapshot: dict[str, Any], store, auto_he
             store.open_incident(project["id"], "disk:/", "warning", f"корневой диск {pct}%")
         else:
             store.resolve_by_target(project["id"], "disk:/", "ok")
-    return actions
+    return suggestions

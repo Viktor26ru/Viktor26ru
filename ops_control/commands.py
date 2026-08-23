@@ -16,7 +16,7 @@ HELP = """Команды:
 /max — боты MAX
 /llm — модели и учёт токенов
 /hosts — железо и диск
-/restart <x5|chizhik|pm> <unit|collector|dashboard>
+/restart <x5|chizhik|pm> <unit|collector|dashboard>  (только по твоей команде, сам не рестартую)
 /probe <x5|chizhik|pm|cursordev>
 /ack <id> — закрыть инцидент
 /note <текст> — запись в журнал
