@@ -1,0 +1,15 @@
+{
+  "name": "ops-control",
+  "install": "echo \"No package dependencies: ops_control and messenger prototype use the Python standard library.\"",
+  "start": "python3 /workspace/ops_control/app.py --daemon",
+  "ports": [
+    { "name": "ops-dashboard", "port": 8787 }
+  ],
+  "terminals": [
+    {
+      "name": "ops-control",
+      "command": "python3 /workspace/ops_control/app.py",
+      "description": "Независимый мониторинг Пятёрочка / Чижик / ПМ + Telegram + MAX"
+    }
+  ]
+}
