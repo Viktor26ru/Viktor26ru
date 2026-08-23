@@ -1,4 +1,4 @@
-.PHONY: validate pg-checks pg-up pg-down pg-reset ci-local prototype-test demo-flow
+.PHONY: validate pg-checks pg-up pg-down pg-reset ci-local prototype-test demo-flow ops-test ops-run
 
 validate:
 	bash scripts/validate_artifacts.sh
@@ -23,3 +23,9 @@ prototype-test:
 
 demo-flow:
 	PYTHONPATH=. python scripts/demo_working_flow.py
+
+ops-test:
+	python3 -m unittest tests.test_ops_control
+
+ops-run:
+	python3 ops_control/app.py --daemon

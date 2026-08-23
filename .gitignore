@@ -2,3 +2,5 @@ __pycache__/
 *.py[cod]
 *.sqlite3
 .env
+ops_control/.secrets.env
+ops_control/data/

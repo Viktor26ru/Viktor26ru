@@ -38,3 +38,16 @@ Note: the `Makefile` invokes `python` (not `python3`); the `python` alias must e
   `scripts/full_local_check.sh` after a reset. PG checks are optional; the prototype/tests need no services.
 - `scripts/run_pg_checks.sh` defaults `DATABASE_URL` to the `postgres` db, but the compose service
   and `make pg-checks` use the `messenger_mvp` db (`postgresql://postgres:postgres@localhost:5432/messenger_mvp`).
+
+## Independent ops-control (Пятёрочка / Чижик / ПМ)
+
+Self-contained monitor in `ops_control/`. It SSHes to the four COV hosts and does **not**
+depend on those dashboards being up. Secrets stay in `ops_control/.secrets.env` (gitignored).
+
+```bash
+make ops-test
+make ops-run          # http://127.0.0.1:8787/  Telegram @Crazynewaibot
+```
+
+Do not commit SSH keys or bot tokens. Do not deploy X5 scripts onto Chizhik/PM hosts from this window.
+Plan: `ops_control/PLAN.md`.
