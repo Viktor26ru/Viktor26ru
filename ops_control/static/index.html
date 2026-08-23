@@ -48,7 +48,7 @@
   </form>
   <script>
     const $ = (id) => document.getElementById(id);
-    const pctClass = (n) => n >= 85 ? "bad" : n >= 70 ? "warn" : "";
+    const pctClass = (n) => n > 90 ? "bad" : "";
     const fmtBytes = (n) => !n ? "—" : n > 1e9 ? (n/1e9).toFixed(1)+"G" : (n/1e6).toFixed(0)+"M";
     function card(p) {
       const s = p.snapshot || {};

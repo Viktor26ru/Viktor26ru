@@ -158,7 +158,7 @@ payload = {
 }
 core_ok = all(unit_map.get(u) == "active" for u in cfg.get("core_units", []))
 http_ok = all(x.get("ok") for x in payload["http"]) if payload["http"] else True
-disk_hot = any(d["pct"] >= 85 and d["mount"] == "/" for d in payload["disks"])
+disk_hot = any(d["pct"] > 90 and d["mount"] == "/" for d in payload["disks"])
 payload["ok"] = core_ok and http_ok and not disk_hot
 payload["core_ok"] = core_ok
 payload["http_ok"] = http_ok

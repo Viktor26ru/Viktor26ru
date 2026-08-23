@@ -76,10 +76,9 @@ def record_problems(project: dict[str, Any], snapshot: dict[str, Any], store) ->
         if disk.get("mount") != "/":
             continue
         pct = int(disk.get("pct") or 0)
-        if pct >= 85:
+        # Alerts only when used is over 90%. Below that — dashboard only, no messages.
+        if pct > 90:
             store.open_incident(project["id"], "disk:/", "critical", f"корневой диск {pct}%")
-        elif pct >= 70:
-            store.open_incident(project["id"], "disk:/", "warning", f"корневой диск {pct}%")
         else:
             store.resolve_by_target(project["id"], "disk:/", "ok")
     return suggestions
