@@ -4,6 +4,11 @@ set -euo pipefail
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$ROOT_DIR"
 
+if ! command -v rg >/dev/null 2>&1; then
+  echo "[ERROR] rg (ripgrep) is required. On Ubuntu: sudo apt-get install -y ripgrep"
+  exit 1
+fi
+
 required_files=(
   "MESSENGER_PRODUCT_PLAN_RU.md"
   "MESSENGER_API_SPEC_RU.md"
