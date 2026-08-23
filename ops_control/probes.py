@@ -49,11 +49,13 @@ def units(names):
     for name in names:
         rc, stdout, _ = sh(f"systemctl is-active {name}")
         result[name] = stdout or "unknown"
-    rc, stdout, _ = sh("systemctl --failed --no-legend --no-pager")
+    rc, stdout, _ = sh("systemctl --failed --no-legend --plain --no-pager")
     failed = []
     for line in stdout.splitlines():
-        if line.strip():
-            failed.append(line.split()[0])
+        for tok in line.split():
+            if tok.endswith(".service") or tok.endswith(".timer"):
+                failed.append(tok)
+                break
     return result, failed
 
 def http_local(urls):

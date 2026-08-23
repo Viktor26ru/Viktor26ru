@@ -50,7 +50,18 @@ def maybe_heal(project: dict[str, Any], snapshot: dict[str, Any], store, auto_he
         if result.get("ok"):
             store.resolve_incident(inc_id, "restarted")
         actions.append(result)
-    # disk is alert-only
-    if snapshot.get("disk_hot"):
-        store.open_incident(project["id"], "disk:/", "warning", "корневой диск ≥ 85%")
+    for unit in snapshot.get("failed_units") or []:
+        if unit in project.get("heal_units", []):
+            continue
+        store.open_incident(project["id"], unit, "warning", f"{unit} failed")
+    for disk in snapshot.get("disks") or []:
+        if disk.get("mount") != "/":
+            continue
+        pct = int(disk.get("pct") or 0)
+        if pct >= 85:
+            store.open_incident(project["id"], "disk:/", "critical", f"корневой диск {pct}%")
+        elif pct >= 70:
+            store.open_incident(project["id"], "disk:/", "warning", f"корневой диск {pct}%")
+        else:
+            store.resolve_by_target(project["id"], "disk:/", "ok")
     return actions
