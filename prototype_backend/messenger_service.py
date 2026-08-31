@@ -1,3 +1,4 @@
+import hashlib
 import secrets
 import sqlite3
 from contextlib import contextmanager
@@ -15,6 +16,11 @@ def ts(dt: datetime) -> str:
 
 def parse_ts(value: str) -> datetime:
     return datetime.fromisoformat(value)
+
+
+def hash_invite_token(token: str) -> str:
+    """Store only a hash of the invite token (spec: token_hash, never plaintext)."""
+    return hashlib.sha256(token.encode("utf-8")).hexdigest()
 
 
 @dataclass
@@ -46,7 +52,7 @@ class MessengerService:
             CREATE TABLE IF NOT EXISTS invites (
               id TEXT PRIMARY KEY,
               issuer_user_id TEXT NOT NULL,
-              token TEXT NOT NULL UNIQUE,
+              token_hash TEXT NOT NULL UNIQUE,
               expires_at TEXT NOT NULL,
               max_uses INTEGER NOT NULL,
               uses_count INTEGER NOT NULL DEFAULT 0,
@@ -107,17 +113,20 @@ class MessengerService:
         expires_at = ts(utc_now() + timedelta(seconds=ttl_seconds))
         self.conn.execute(
             """
-            INSERT INTO invites(id, issuer_user_id, token, expires_at, max_uses, uses_count, created_at)
+            INSERT INTO invites(id, issuer_user_id, token_hash, expires_at, max_uses, uses_count, created_at)
             VALUES (?, ?, ?, ?, ?, 0, ?)
             """,
-            (invite_id, issuer_user_id, token, expires_at, max_uses, ts(utc_now())),
+            (invite_id, issuer_user_id, hash_invite_token(token), expires_at, max_uses, ts(utc_now())),
         )
         self.conn.commit()
         return Invite(invite_id, issuer_user_id, token, expires_at, 0, max_uses)
 
     def redeem_invite(self, token: str, recipient_user_id: str) -> str:
         with self.tx():
-            row = self.conn.execute("SELECT * FROM invites WHERE token = ?", (token,)).fetchone()
+            row = self.conn.execute(
+                "SELECT * FROM invites WHERE token_hash = ?",
+                (hash_invite_token(token),),
+            ).fetchone()
             if not row:
                 raise ValueError("INVITE_NOT_FOUND")
             if row["revoked_at"] is not None:
@@ -163,7 +172,20 @@ class MessengerService:
             result.append(peer)
         return result
 
+    def _are_contacts(self, user_a: str, user_b: str) -> bool:
+        a, b = sorted([user_a, user_b])
+        pair = f"{a}:{b}"
+        row = self.conn.execute(
+            "SELECT 1 FROM contacts WHERE normalized_pair = ?",
+            (pair,),
+        ).fetchone()
+        return row is not None
+
     def create_or_get_direct_chat(self, user_a: str, user_b: str) -> str:
+        if user_a == user_b:
+            raise ValueError("SELF_CHAT_FORBIDDEN")
+        if not self._are_contacts(user_a, user_b):
+            raise ValueError("NOT_CONTACTS")
         a, b = sorted([user_a, user_b])
         pair = f"{a}:{b}"
         row = self.conn.execute("SELECT id FROM chats WHERE normalized_pair = ?", (pair,)).fetchone()
@@ -178,6 +200,15 @@ class MessengerService:
         return chat_id
 
     def send_message(self, chat_id: str, sender_user_id: str, ciphertext: str, msg_type: str = "text") -> str:
+        chat = self.conn.execute(
+            "SELECT normalized_pair FROM chats WHERE id = ?",
+            (chat_id,),
+        ).fetchone()
+        if not chat:
+            raise ValueError("CHAT_NOT_FOUND")
+        members = set(chat["normalized_pair"].split(":"))
+        if sender_user_id not in members:
+            raise ValueError("NOT_CHAT_MEMBER")
         msg_id = f"msg_{secrets.token_hex(8)}"
         self.conn.execute(
             "INSERT INTO messages(id, chat_id, sender_user_id, ciphertext, msg_type, created_at) VALUES (?, ?, ?, ?, ?, ?)",

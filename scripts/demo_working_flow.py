@@ -15,7 +15,7 @@ def main() -> None:
 
     print("alice:", alice)
     print("bob:", bob)
-    print("invite:", invite.token)
+    print("invite:", f"{invite.token[:8]}… (redacted)")
     print("contact_id:", contact_id)
     print("chat_id:", chat_id)
     print("msg_id:", msg_id)

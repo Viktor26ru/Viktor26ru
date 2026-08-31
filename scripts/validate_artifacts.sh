@@ -11,6 +11,7 @@ required_files=(
   "INVITE_PROTOCOL_RU.md"
   "SPRINT1_BACKLOG_RU.md"
   "IMPLEMENTATION_RUNBOOK_RU.md"
+  "SECURITY_NETWORK_AUDIT_RU.md"
   "openapi/messenger_mvp_openapi_ru.yaml"
   "db/migrations/0001_init_messenger.sql"
   "db/migrations/0002_invite_redeem_transaction.sql"
@@ -74,5 +75,22 @@ if ! rg -q 'db/migrations/0002_invite_redeem_transaction.sql' MESSENGER_PRODUCT_
 fi
 
 echo "[OK] Cross-document consistency checks passed"
+
+if ! rg -q '127\.0\.0\.1:5432:5432' docker-compose.yml; then
+  echo "[ERROR] Postgres must be published on 127.0.0.1 only"
+  exit 1
+fi
+
+if rg -q -- '- "5432:5432"' docker-compose.yml; then
+  echo "[ERROR] Postgres must not bind 5432 on all interfaces"
+  exit 1
+fi
+
+if ! rg -q 'SECURITY_NETWORK_AUDIT_RU.md' IMPLEMENTATION_RUNBOOK_RU.md; then
+  echo "[ERROR] Runbook does not reference SECURITY_NETWORK_AUDIT_RU.md"
+  exit 1
+fi
+
+echo "[OK] Local network hardening checks passed"
 
 echo "Validation completed successfully"
