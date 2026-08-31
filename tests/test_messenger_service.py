@@ -37,6 +37,29 @@ class MessengerServiceTests(unittest.TestCase):
         msg_id = self.svc.send_message(chat_id, self.alice, ciphertext="ENCRYPTED:text")
         self.assertTrue(msg_id.startswith("msg_"))
 
+    def test_invite_token_is_stored_hashed(self) -> None:
+        invite = self.svc.create_invite(self.alice)
+        stored = self.svc.conn.execute("SELECT token_hash FROM invites").fetchone()
+        self.assertIsNotNone(stored["token_hash"])
+        self.assertNotEqual(stored["token_hash"], invite.token)
+        columns = {
+            row[1]
+            for row in self.svc.conn.execute("PRAGMA table_info(invites)").fetchall()
+        }
+        self.assertIn("token_hash", columns)
+        self.assertNotIn("token", columns)
+
+    def test_direct_chat_requires_contact(self) -> None:
+        with self.assertRaisesRegex(ValueError, "NOT_CONTACTS"):
+            self.svc.create_or_get_direct_chat(self.alice, self.bob)
+
+    def test_send_message_requires_membership(self) -> None:
+        invite = self.svc.create_invite(self.alice)
+        self.svc.redeem_invite(invite.token, self.bob)
+        chat_id = self.svc.create_or_get_direct_chat(self.alice, self.bob)
+        with self.assertRaisesRegex(ValueError, "NOT_CHAT_MEMBER"):
+            self.svc.send_message(chat_id, self.charlie, ciphertext="ENCRYPTED:nope")
+
 
 if __name__ == "__main__":
     unittest.main()

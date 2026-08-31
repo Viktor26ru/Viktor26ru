@@ -29,6 +29,10 @@ DATABASE_URL=postgresql://postgres:postgres@localhost:5432/postgres bash scripts
 
 В MVP принципиально нет глобального поиска пользователей по логину/телефону/нику — только invite-only модель.
 
+Локальный PostgreSQL в `docker-compose.yml` слушает только `127.0.0.1:5432`. Пароль задавайте через `.env` (см. `.env.example`), не публикуйте 5432 в сеть.
+
+Защитный аудит среды и спецификации: `SECURITY_NETWORK_AUDIT_RU.md`.
+
 
 ## Быстрый старт проверок (одной командой)
 
