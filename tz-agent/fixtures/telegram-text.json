@@ -1,0 +1,10 @@
+{
+  "update_id": 1001,
+  "message": {
+    "message_id": 10,
+    "from": { "id": 555, "is_bot": false, "first_name": "Анна", "username": "anna" },
+    "chat": { "id": 555, "type": "private" },
+    "date": 1710000000,
+    "text": "Нужен кабинет, где клиент видит свои счета и не теряет оплату."
+  }
+}
